@@ -131,6 +131,10 @@ For example, the last four bits of the MAC address are 0F:01, and the IP address
 
 #### Connect through Wi-Fi
 
+:::tip 📝 NOTE:
+After connecting to the WiFi network, the gateway's IP address will change, so don't forget to save the EUI ID you need for the next step. [LoRa Network -> LoRaWAN Network Settings> Gateway EUI] Otherwise, since the IP address of the WiFi gateway will change after connecting to WiFi, it will take time to reach the root menu.
+:::
+
 Go into the **Network>Wi-Fi** menu and make sure to select **Client** in the **Mode** field. Enter or click "**Scan**" to choose your **ESSID**, select the right **Encryption** method and enter the correct **Key**.
 
 <rk-img
